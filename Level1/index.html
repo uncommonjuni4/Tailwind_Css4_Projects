@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Respoive Website 
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      -->
+    <script src="https://cdn.tailwindcss.com"></script>  
+  </head>
+  <body>
+
+      <!-- // outer div  -->
+    <div  class="flex  min-h-screen">
+      <aside class="w-64   bg-slate-600 text-white p-6  hidden  lg:block">
+        <h1  class="text-2xl   font-bold mb-8">
+            DecvCarft
+        </h1>
+        <ul   class="space-y-4">
+            <li class="cursor-pointer hover:text-blue-400  bg-gray-- ">DashBoard</li>
+            <li class="cursor-pointer hover:text-blue-400 ">Projects</li>
+            <li class="cursor-pointer hover:text-blue-400 ">Anaalysis</li>
+            <li class="cursor-pointer hover:text-blue-400 ">Settings</li>
+        </ul>
+      </aside>
+      <!-- Right side main content  -->
+       <div class="flex-1  bg-gray-100">
+        <header  class="  flex bg-white  p-4 shadow-sm justify-between  items-center ">
+            <input type="text"   class="border rounded-md  px-4 py-4 text-sm foucs:outline-none focus:ring-2 focus:ring-blue-500">
+            <span class="font-bold text-gray-700">Juni </span>
+        </header>
+        
+                    <main class="p-6">
+                        <h2 class="text-2xl  text-semibold text-gray-400 mb-2">Welcome Back Juni!</h2>
+                        <div class="grid grid-cols-1   md:grid-cols-3  gap-6">
+                            <div  class="border rounded-lg  shadow-md  p-6  bg-white ">
+                              <p class="text-sm text-gray-500 font-medium">Active Projects</p>
+      <h3 class="text-3xl font-bold text-gray-800  mt-2">12</h3>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+      <p class="text-sm text-gray-500 font-medium">Total Users</p>
+      <h3 class="text-3xl font-bold text-gray-800 mt-2">35</h3>
+    </div>
+                            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+      <p class="text-sm text-gray-500 font-medium">Chart Earns</p>
+      <h3 class="text-3xl font-bold text-gray-800 mt-2">10+</h3>
+    </div>
+                        </div>
+                    </main>
+       </div>
+    </div>
+  </body>
+</html>
